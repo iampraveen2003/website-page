@@ -1,0 +1,101 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    margin-right: 400px;
+   
+
+
+}
+
+.navbar ul li{
+    margin: 15px;
+    vertical-align: 15px;
+    font-size: 12px;
+    display: flex;
+    display: inline-block;
+
+    
+        
+}
+#tap1{
+    border: none;
+    background-color: #f04924;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+    margin-left: 30px;
+}
+.point{
+    margin-left: 88px;
+    display: inline-block;
+    margin-top: 60px;
+
+}
+.banner{
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: -30px;
+}
+.content{
+    text-align: center;
+}
+.indexbox{
+    text-align: center;
+}
+.index{
+    display: inline-block;
+    height: 280px;
+    width: 200px;
+    background-color: rgb(219, 215, 215);
+    margin: 18px;
+    font-size: 14px;
+    border-radius: 20px;
+    color: white;
+}
+#index1{
+ background-color:#f0390f;
+}
+#index2{
+background-color:  #3e0bce;
+}
+#index3{
+background-color: #f0390f;
+}
+.span1{
+ margin-top: 10px;
+ margin-left: 320px;
+ 
+}
+.span2{
+    margin-top: 10px;
+    margin-left: 220px;
+    
+    }
+    
+
+.span3{
+    margin-top: 10px;
+ margin-left: 120px;
+ }
+ .about{
+    margin-left: 140px;
+    display: inline-block;
+    margin-top: 75px;
+    font-size: 16px;
+    color: white;
+
+}
+.insideimg{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+
+.finalbackground{
+    background-image: url(about_bg.jpg);
+    background-position: center;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
