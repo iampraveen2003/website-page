@@ -4,8 +4,10 @@
     font-family: 'Poppins', sans-serif;
     justify-content: space-between;
     margin-right: 400px;
-   
 
+}
+body{
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -14,10 +16,20 @@
     vertical-align: 15px;
     font-size: 12px;
     display: flex;
-    display: inline-block;
-
+    display: inline-block;    
+}
+ 
+.point{
     
-        
+}
+}
+.content h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+
+}
+.content p{
+    font-size: 15px;
 }
 #tap1{
     border: none;
@@ -31,6 +43,7 @@
     margin-left: 88px;
     display: inline-block;
     margin-top: 60px;
+    
 
 }
 .banner{
@@ -51,7 +64,7 @@
     background-color: rgb(219, 215, 215);
     margin: 18px;
     font-size: 14px;
-    border-radius: 20px;
+    border-radius: 15px;
     color: white;
 }
 #index1{
@@ -79,23 +92,32 @@ background-color: #f0390f;
     margin-top: 10px;
  margin-left: 120px;
  }
- .about{
+.about{
+    vertical-align: top;
     margin-left: 140px;
     display: inline-block;
-    margin-top: 75px;
-    font-size: 16px;
+    margin-top: 80px;
+    font-size: 14px;
     color: white;
+}
 
-}
-.insideimg{
-    display: inline-block;
-    margin-top: 40px;
-}
+
+
 
 
 .finalbackground{
     background-image: url(about_bg.jpg);
+    background-size: cover;
     background-position: center;
-    margin-top: 30px;
-    margin-bottom: 8px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    font-size: 12px;
+    background-position-x: center;
+
+}
+
+.finalbackground .insideimg{
+    display: inline-block;
+    margin-top: 45px;
+    margin-left: 7px;
 }
